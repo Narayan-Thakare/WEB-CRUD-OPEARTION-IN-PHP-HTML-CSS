@@ -17,6 +17,7 @@
       background-color: #f2f2f2;
     }
 
+
     .container {
       max-width: 600px;
       margin: 30px auto;
