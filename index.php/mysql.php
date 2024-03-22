@@ -12,6 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+
 $uname = $_GET['name'];
 $email = $_GET['email'];
 $mob = $_GET['contact'];
