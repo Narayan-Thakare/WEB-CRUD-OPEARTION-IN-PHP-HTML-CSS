@@ -12,6 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+
 // Check if the empid parameter is provided in the URL
 if (isset($_GET['id'])) {
     $empid = $_GET['id'];
