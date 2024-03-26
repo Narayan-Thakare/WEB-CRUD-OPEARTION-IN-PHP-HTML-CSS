@@ -31,6 +31,7 @@ if ($conn->query($sql) === TRUE) {
     require 'index.php';
 
    
+
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
