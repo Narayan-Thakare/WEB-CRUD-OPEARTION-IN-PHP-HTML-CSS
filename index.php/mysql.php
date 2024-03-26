@@ -13,6 +13,7 @@ if ($conn->connect_error) {
 }
 
 
+
 $uname = $_GET['name'];
 $email = $_GET['email'];
 $mob = $_GET['contact'];
