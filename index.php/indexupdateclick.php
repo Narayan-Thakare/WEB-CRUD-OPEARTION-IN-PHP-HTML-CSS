@@ -19,6 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $contact = $_POST['number'];
     $name = $_POST['name'];
 
+
     // Sanitize inputs to prevent SQL injection (use proper database-specific methods)
     $address = mysqli_real_escape_string($conn, $address);
     $contact = mysqli_real_escape_string($conn, $contact);
